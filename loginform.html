@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta  name="viewport" content="width=device-width, initial-scale=1.0" >
+        <link href="styles.css" rel="stylesheet">
+        <script src="script.js"></script>
+        <title>Photo Gallery Login</title>
+    </head>
+    <body>
+        <form id="login-form" action="###" method="post" class="identification">
+            <fieldset>
+                <label for="name">Username: <input type="text" name="identification" id="name" placeholder="eg. Noah Kahan" required ></label>
+                <label for="password">Password: (Must contain at least one number,an uppercase,a lowercase letter, and 8+ characters") <input name="identification" type="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="e.g: adYR78uiopqr" required ></label>
+            </fieldset>
+            <button type="submit">Log in</button>
+        </form>
+    </body>
+</html>
